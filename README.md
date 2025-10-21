@@ -21,7 +21,7 @@ Example use with `sleepwatcher`:
 brew services stop gmail-blade
 ```
 
-`~/.sleep/sleep.sh`:
+`~/.wakeup/wakeup.sh`:
 
 ```bash
 #!/bin/bash
