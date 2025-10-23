@@ -18,7 +18,6 @@ class GmailBlade < Formula
   # Define the service properties.
   service do
     run [opt_bin/"gmail-blade", "server", "--config", etc/"gmail-blade.yml"]
-    keep_alive true
     log_path var/"log/gmail-blade.log"
     error_log_path var/"log/gmail-blade.error.log"
   end
