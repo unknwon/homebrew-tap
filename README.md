@@ -14,14 +14,14 @@ Formulas:
 
 Example use with `sleepwatcher`:
 
-`~/.sleep/sleep.sh`:
+`~/.sleep`:
 
 ```bash
 #!/bin/bash
 brew services stop gmail-blade
 ```
 
-`~/.wakeup/wakeup.sh`:
+`~/.wakeup`:
 
 ```bash
 #!/bin/bash
